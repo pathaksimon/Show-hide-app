@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #dd1264, #fc63a7);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  height: 100px;
+  width: 100px;
+  background-color: #fddddb;
+  margin-top: 10px;
+}
+
+.card2 {
+  height: 100px;
+  width: 100px;
+  background-color: #fddddb;
+  margin-top: 10px;
+}
+
+.first-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.combined-cards {
+  display: flex;
+  justify-content: space-between;
+
+  width: 30%;
+}
